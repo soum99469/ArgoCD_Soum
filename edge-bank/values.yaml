@@ -1,6 +1,6 @@
 global:
-  ingressSubdomain: <dev-cluster-name>.us-south.containers.appdomain.cloud
-  tlsSecretName: <dev-cluster-name>
+  ingressSubdomain: appdev-cloudnative-ocp43-6fb0b86391cd68c8282858623a1dddff-0000.eu-gb.containers.appdomain.cloud
+  tlsSecretName: appdev-cloudnative-ocp43-6fb0b86391cd68c8282858623a1dddff-0000
 
 <app-chart-name>:
   replicaCount: 3
@@ -14,5 +14,5 @@ global:
   # For Kubernetes set ingress.enabled=true
   ingress:
     enabled: false
-    tlsSecretName: <dev-cluster-name>
+    tlsSecretName: appdev-cloudnative-ocp43-6fb0b86391cd68c8282858623a1dddff-0000
 

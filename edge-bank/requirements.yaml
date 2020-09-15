@@ -1,0 +1,4 @@
+dependencies:
+- name: Edge-Bank
+  version: 0.0.1
+  repository: https://artifactory-tools.appdev-cloudnative-ocp43-6fb0b86391cd68c8282858623a1dddff-0000.eu-gb.containers.appdomain.cloud/artifactory/generic-local/appdev-cloudnative
